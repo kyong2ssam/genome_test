@@ -504,7 +504,7 @@ function triggerGameOver() {
     document.body.classList.add('game-over-bg');
     DOM.screens.forEach(s => s.classList.remove('active'));
     
-    showPopup("☠ 감염 완료 (GAME OVER)", "점수가 0점 미만으로 떨어졌습니다.<br><br>GENOME-X 바이러스가 당신의 신경계를 장악했습니다.<br>이성을 잃고 좀비가 되었습니다...<br><br><button onclick='location.reload()' style='margin-top:15px; width:100%; border-color:var(--color-red); color:var(--color-red);'>다시 도전하기</button>");
+    showPopup("☠ 감염 (GAME OVER)", "점수가 0점 미만으로 떨어졌습니다.<br><br>GENOME-X 바이러스가 당신의 신경계를 장악했습니다.<br>이성을 잃고 좀비가 되었습니다...<br><br><button onclick='location.reload()' style='margin-top:15px; width:100%; border-color:var(--color-red); color:var(--color-red);'>다시 도전하기</button>");
 }
 
 function triggerZombie() {
